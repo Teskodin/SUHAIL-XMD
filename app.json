@@ -1,17 +1,17 @@
 {
   "name": "suhail-whatsapp-bot@1.0.1",
-  "description": "I am Suhail-X Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/SuhailTechInfo",
- "logo":"https://telegra.ph/file/9dcef2b49909742db8dbd.jpg",
+  "description": "I am a Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/SuhailTechInfo",
+ "logo":"null",
  
-  "old__logo": "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
+  "old__logo": "null",
+  "keywords": ["whatsappbot", "Tesko", "Tesko bot", "TeskoWhatsaooBot", "TeskoWaBot","TeskoMD","Tesko Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/qr/",
   "__stack":"container",
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Suhail-X",
+      "value": "Tesko",
       "required" :true
     },   
      
@@ -29,7 +29,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "Suhail-X-Md"
+      "value": "Tesko"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -39,7 +39,7 @@
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
       "required" :false,    
-      "value": "false"
+      "value": "True"
     },
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
@@ -67,7 +67,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "2348148798299,2349128930328"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -91,17 +91,17 @@
     },
     "MODE": {
       "description": "Worktype of your bot. Use public/private, if private then only bot number can use it. If public then everyone can use it.",
-      "value": "public"
+      "value": "private"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Suhail Md",
-      "required": false 
+      "value": "Tesko",
+      "required": true
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "",
-      "required": false 
+      "value": "®",
+      "required": true
     }
   }, 
   "addons": [{ "plan": "heroku-postgresql:essential-1" }],
